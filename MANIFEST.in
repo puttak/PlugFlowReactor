@@ -1,0 +1,2 @@
+include PlugFlowReactor/data/*
+include PlugFlowReactor/libPlugFlowReactor_shared.so
