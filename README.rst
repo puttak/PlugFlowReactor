@@ -15,9 +15,16 @@ Cantera compilation.
 
 .. _CanteraPFR: https://github.com/waltermateriais/CanteraPFR/
 
+Build instructions
+-------------------
+
 Under Linux (or Cygwin) you will need most classical build tools such as a
 C++ compiler with C++14 compatibility (any recent version of `g++`), `make`
 build manager, and a `python` distribution above Python 3.6.5.
+
+**Note:** if building the shared library with `make`, consider modifying the
+values of `ROOT_CANTERA` and `ROOT_SUNDIALS` (and other variables you think
+need to be changed) to the ones corresponding to your machine.
 
 I already provide the library `libPlugFlowReactor_shared.so` with the package
 as compiled for Linux-64 systems (you need Cantera 2.4.0 and Sundials 2.7 to
